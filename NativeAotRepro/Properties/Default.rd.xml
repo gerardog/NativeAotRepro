@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Directives xmlns="http://schemas.microsoft.com/netfx/2013/01/metadata">
 	<Application>
-		<Assembly Name="NamedPipeServerStream.NetFrameworkVersion" />
+		<Assembly Name="NamedPipeServerStream.NetFrameworkVersion">
+			<Type Name="System.IO.Pipes.SECURITY_ATTRIBUTES" MarshalStructure="Required All" />
+		</Assembly>
 	</Application>
 </Directives>
